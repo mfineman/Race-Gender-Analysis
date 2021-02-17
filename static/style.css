@@ -1,12 +1,6 @@
-.jumbotron {
-    height: 355px;
-    background-image: url("AdobeStock_129957394.jpeg");
-    background-size: cover;
-    background-position: center center no repeat;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
+.navbar {
+    margin-left: 70px;
+    margin-right: 59px;
 }
 
 h2 {
@@ -15,5 +9,20 @@ h2 {
     left: 70px;
     margin-top: 0;
     padding-top: 0;
-    font-size: 55px;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+#hero {
+    /* margin-left: 30px; */
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 70px;
+}
+
+#title {
+    background: radial-gradient(#d79a85 15%, transparent 16%) 0 0, radial-gradient(#d79a85 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+    background-color: #d79a85;
+    background-size: 16px 16px;
 }
