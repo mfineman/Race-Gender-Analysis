@@ -1,28 +1,132 @@
+/* Global */
+
 .navbar {
-    margin-left: 70px;
-    margin-right: 59px;
+    position: relative;
+    margin-left: 1300px;
+    margin-right: 60px;
 }
 
 h2 {
     position: absolute;
     bottom: 130px;
     left: 70px;
-    margin-top: 0;
-    padding-top: 0;
+    right: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
     color: whitesmoke;
 }
 
+
+/*Home page  */
+
 #hero {
-    /* margin-left: 30px; */
     padding-right: 0;
     margin-right: 0;
-    margin-left: 70px;
+    margin-left: 45px;
+    padding-left: 0px;
 }
 
 #title {
     background: radial-gradient(#d79a85 15%, transparent 16%) 0 0, radial-gradient(#d79a85 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
     background-color: #d79a85;
     background-size: 16px 16px;
+}
+
+#home_top {
+    padding-top: 40px;
+}
+
+#intro {
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-right: 40px;
+    text-align: justify;
+}
+
+h5 {
+    margin: 10px;
+}
+
+#page_icons {
+    padding-right: 0;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.frame {
+    width: 400px;
+    height: 230px;
+    border: 3px solid #955446;
+    background: #d79a85;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px 0px;
+}
+
+.footer {
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+
+/* Overview */
+
+#overview {
+    background-color: #d79a85;
+}
+
+#page_title_section {
+    position: relative;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 0px;
+    text-align: justify;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 7px;
+}
+
+#inside_pages {
+    position: relative;
+    padding-top: 40px;
+}
+
+#commentary {
+    position: relative;
+    padding-top: 45px;
+    text-align: justify;
+}
+
+p.col-sm-2 {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+
+/* Detail pages */
+
+#detail_title_section {
+    position: relative;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    text-align: justify;
+    background-color: #d79a85;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 7px;
+}
+
+#charts_left_2 {
+    position: relative;
+    padding-top: 15px;
+}
+
+#charts_right_2 {
+    position: relative;
+    padding-left: 10px;
+    padding-top: 10px;
 }

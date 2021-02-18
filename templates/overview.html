@@ -12,8 +12,8 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm bg-light navbar-dark ">
-        <div class="collapse navbar-collapse" id="navbarNav">
+    <nav class="navbar navbar-expand-sm bg-white navbar-dark ">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 
             <li class="nav-link">
                 <a type="button" class="btn btn-secondary" href="index.html"> Home </a>
@@ -23,7 +23,7 @@
             <li class="nav-link dropdown">
                 <div class="btn-group">
                     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Visualizations
+                        Analyses
                     </button>
                     <div class="dropdown-menu dropdown-menu-right">
                         <a class="dropdown-item" type="button" href="overview.html">Overview</a>
@@ -39,24 +39,84 @@
 
     </nav>
 
+    <div class="container-fluid" id="overview">
+        <div class="row" id="inside_pages">
+            <div class="col-md-12" id="page_title_section">
+                <h3>Overview of Data</h3>
+                <br>
+                <p>The lines on the graphs to the left show that women and minorities made modest gains to their representation in professional, managerial, and chief executive positions in the decade between 2010 and 2019. The bar charts on the right illustrate
+                    "Advancement Ratio", a comparison of each group's share of a set of jobs to its share of the total workforce. All things being equal, we would expect a one-to-one relationship between those two measures. We can see, however, that the
+                    advancements have been small over the last decade, and, if the pace of change remains constant, over the next ten years, will remain so. </p>
+                <p>There are some exceptions to the general trend. Women and Asians are over-represented in professional positions. By 2029, Asians are predicted to hold more CEO jobs than their proportion of the workforce.</p>
+                <p>To view data for each demographic group, select a page from the dropdown menu above.</p>
+                <p>(Note that BLS does not report data on whites before 2017. Future trends for that group are based only on 2017-2019 averages and may therefore be less reliable than for other groups.)</p>
+            </div>
+        </div>
 
-    <div class="row">
+        <div class="row" id="inside_pages">
+            <div class="col-sm-4" id="graphs">
+                <img src="Images\All_ten_year_graph.png" alt="Total Workforce Graph">
+            </div>
+            <div class="col-sm-2" id="commentary">
+                <p>Women's share of the workforce has remained relatively flat at roughly 47% over the last decade, while those of African-Americans, Asians, and Latinx workers have risen by 1.5, 1.7, and 3.3 percentage points, respectively.</p>
+                <p>In 2010, men were over-represented in managerial and CEO positions, despite holding fewer professional jobs than their share of the total workforce would warrant.</p>
+            </div>
+            <div class="col-sm-5" id="charts" </div>
+                <img src="Images/bar_advratio2010.png" alt="Advancement ratios 2010">
+            </div>
+        </div>
 
+        <div class="row" id="inside_pages">
+            <div class="col-sm-4" id="graphs">
+                <img src="Images\Management_ten_year_graph.png" alt="Managers Graph">
+            </div>
+            <div class="col-sm-2" id="commentary">
+                After ten years, women had gained only 5 percentage points and Asians only 2 in managerial positions, despite both groups occupying a higher proportion of feeder level positions than men and whites. Latinx made the most gains in management ranks (7.7
+                points).
+            </div>
+            <div class="col-sm-5" id="charts" </div>
+                <img src="Images/bar_advratio2019.png" alt="Advancement ratios 2019">
+            </div>
+        </div>
 
+        <div class="row" id="inside_pages">
+            <div class="col-sm-4" id="graphs">
+                <img src="Images\Professional_ten_year_graph.png" alt="Professionals Graph">
+            </div>
+            <div class="col-sm-2" id="commentary">
+                The line graph shows how the relative share of professional jobs changed between 2010 and 2019. Latinx and African-Americans made small gains in their share of these jobs, mostly during the earlier years of the decade. Between 2017 and 2019, whites held
+                roughly 77% of professional jobs during this period, on par with their share of the total workforce. The chart on the right predicts 2029 advancement ratios assuming that change continues at the average annual rate from the previous ten
+                years.
+            </div>
+            <div class="col-sm-5" id="charts" </div>
+                <img src="Images/bar_advratio2029.png" alt="Advancement ratios 2029">
+            </div>
+        </div>
 
-        < <div class="row">
+        <div class="row" id="inside_pages">
+            <div class="col-sm-4" id="graphs">
+                <img src="Images\CEO_ten_year_graph.png" alt="CEOs Graph">
+            </div>
+            <div class="col-sm-2" id="commentary">
+                The biggest advances for African-Americans and Asians in the past decade came at the CEO level, perhaps, at least in part, because the visibility of these positions has motivated companies to diversify them.
+                <p>On the right we see the differences between advancement ratios in 2010 and those forecast for 2029. In most cases, progress over the 20 year period is modest to miniscule. Latinx workers are predicted to gain most in the professional and
+                    managerial job categories. </p>
+            </div>
+            <div class="col-sm-5" id="charts" </div>
+                <img src="Images/bar_ratiochange_2029.png" alt="Change in advancement ratios">
+            </div>
+        </div>
 
+        <footer class="footer ">
+            <br>
+            <p>Copyright 2021 Michal Fineman</p>
+        </footer>
 
-
-
-            <footer class="footer ">
-
-            </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js "></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js "></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
 </body>
 
 </html>
