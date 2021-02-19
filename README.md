@@ -10,15 +10,15 @@ I started with a csv file downloaded from the BLS website.  In truth, much of th
 
 The basic data--change in a group's representation over time--is useful to see, but not very informative in itself.  For example, this chart shows us that African-American's share of each of the job categories went up in the past ten years.  
 
-![Sample Graph](https://github.com/mfineman/Race-Gender-Analysis/blob/main/templates/Images/AArep.png)
+![Sample Graph](https://github.com/mfineman/Race-Gender-Analysis/blob/main/Images/AArep.png)
 
 However, the real story is not in the lines, but between them.  While their share of each job level increased, so did their share of all jobs.  So how much was their increase in managerial jobs, say, true gain and how much was just that African-Americans make up more of the workforce than ten years ago?
 
 To gauge "real" advancement, I added a measure I'm calling *advancement ratio*.  Advancement ratio shows a group's share of a category of jobs compared to (that is, divided by) its share of the total workforce.  A ratio of 100% would mean that a group's representation in a category is proportional to its representation in the workforce.  A ratio of under 100% means the group is under-represented; a ratio of higher than 100% means the group is over-represented in that set of jobs.  These ratios give a clearer picture of how much a group is actually progressing, as in the examples below:
 
-![Twenty year advancement ratios, Africa-Americans](https://github.com/mfineman/Race-Gender-Analysis/blob/main/templates/Images/African-Americans_ratios_2010-2029.png)
+![Twenty year advancement ratios, Africa-Americans](https://github.com/mfineman/Race-Gender-Analysis/blob/main/Images/African-Americans_ratios_2010-2029.png)
 
-![Sample Graph](https://github.com/mfineman/Race-Gender-Analysis/blob/main/templates/Images/African-Americans_ratio_change19.png)
+![Sample Graph](https://github.com/mfineman/Race-Gender-Analysis/blob/main/Images/African-Americans_ratio_change19.png)
 
 (In its diversity practice, a given organization could use advancement ratios to trace a demographic group's progress from feeder jobs to the next level and identify the points along a career path where progress tends to stall.  In the case of national BLS statistics, however, we don't have fine enough job categories to map out distinct career paths.)
 
