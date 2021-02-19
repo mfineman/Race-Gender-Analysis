@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm bg-white navbar-dark ">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                <li class="nav-link">
+                    <button type="button" class="btn btn-secondary " href="index.html"> Home </button>
+                </li>
+
+                <!-- Navbar dropdown -->
+                <li class="nav-link dropdown">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Analyses
+                    </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" type="button" href="overview.html">Overview</a>
+                            <a class="dropdown-item" type="button" href="women.html">Women</a>
+                            <a class="dropdown-item" type="button" href="african-am.html">African-Americans</a>
+                            <a class="dropdown-item" type="button" href="asians.html">Asians</a>
+                            <a class="dropdown-item" type="button" href="latinx.html">Latinx</a>
+                        </div>
+                    </div>
+                </li>
+
+            </div>
+
+        </nav>
+
+    </div>
+    <div class="container-fluid">
+
+
+        <div class="row">
+
+            <div class="col-md-5" id="hero">
+                <img src="Images/AdobeStock_129957394.jpeg " width=100%, height=400px, alt="Starting Block ">
+            </div>
+            <div class="col-md-6" id="title" style=background-color:rgba(215,154,133,255)>
+                <p></p>
+                <h2>Intractable Inequities: <br>Race and Gender Imbalances in the U.S. Workforce</h2>
+
+            </div>
+        </div>
+
+        <div class="row" id="home_top">
+
+            <div class="col-md-6" id="intro">
+                <h3>At the current rate of change, women and minorities will lag white men for a long time to come.</h3>
+                <p>An analysis of data from the Bureau of Labor Statistics shows that, unless something changes substantially, it will take many decades for female, African-American, Asian, and Latinx workers to reach parity with white and male workers in
+                    terms of their representation in professional and leadership roles.</p>
+
+                <p>We examined the share of professional, managerial, and chief executive positions (which is the finest breakdown of job level available from the data) held by women and minorities and found that, in most cases, their share of these jobs
+                    is considerably lower than their share of the total workforce, while men and whites hold a greater proportion of higher level jobs than their share of the workforce. Furthermore, while the proportion of these positions held by women
+                    and minority is increasing, so is their share of the workforce, so that, overall, they remain significantly underrepresented in most categories. Assuming representation of women and minority continues to grow at the same average rate
+                    as over the previous ten years, it will be decades before parity is reached. </p>
+
+                <p> To explore the data further, click on any of the links to the right or from the drop down menu.</p>
+
+                <p>Some notes about the data: Predictions for change in representation over the next ten years are based on the average annual change in the past ten. However, BLS has reported representation of whites only since 2017. The average annual
+                    change for that group, therefore, is based on just three years of data and likely to be less reliable than that of other categories.</p>
+            </div>
+            <div class=col-md-2 " id="page_links ">
+                <br><br><br><br><h5><a class="link " href="overview.html ">Overview</a> of data and predictions, 2010 - 2029</h5>
+                <br><br><br><br><br><br><br><br><h5><a class="link " href="women.html ">Progress of women</a> last ten years and predicted</h5>
+                <br><br><br><br> <br><br><br><h5><a class="link " href="african-am.html ">Progress of African-Americans</a> last ten years and predicted</h5>
+                <br><br><br><br><br><br><br><h5><a class="link " href="asians.html ">Progress of Asians</a> last ten years and predicted</h5>
+                <br><br><br><br><br><br><br><h5><a class ="link " href="women.html ">Progress of Latinx</a> last ten years and predicted</h5>
+            </div>
+
+            <div class="col-md-3 " id="page_icons ">
+                <div class="frame ">
+                    <img src="images/bar_ratiochange_2029.png " alt="Change in advancement ratio 2029 " width=400px height=200px>
+                </div>
+                <div class="frame ">
+                    <img src="images/Women_twenty_year_graph.png " alt="Graph showing 20 years of data on women " width=400px height=200px>
+                </div>
+                <div class="frame ">
+                    <img src="images/African-Americans_twenty_year_graph.png " alt="Graph showing 20 years of data on African-Americans " width=400px height=200px>
+                </div>
+                <div class="frame ">
+                    <img src="images/Asians_twenty_year_graph.png " alt="Graph showing 20 years of data on Asians " width=400px height=200px>
+                </div>
+                <div class="frame ">
+                    <img src="images/Latinx_twenty_year_graph.png " alt="Graph showing 20 years of data on Latinx " width=400px height=200px>
+                </div>
+
+               
+            </div>
+        </div>
+        <footer>
+            <p>Copyright 2021 Michal Fineman</p>
+        </footer>
+</container-fluid>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js "></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
