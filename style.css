@@ -39,7 +39,8 @@ h2 {
 }
 
 #intro {
-    margin-left: 40px;
+    position: relative;
+    padding-left: 40px;
     margin-top: 20px;
     padding-right: 40px;
     text-align: justify;
